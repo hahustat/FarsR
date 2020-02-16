@@ -44,7 +44,8 @@ make_filename <- function(year) {
   system.file("extdata",
               sprintf("accident_%d.csv.bz2", year),
               package = "Fars",
-              mustWork = TRUE)
+              mustWork = TRUE
+              )
 }
 
 #' Reads several years of data from the data set
