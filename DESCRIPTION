@@ -4,7 +4,12 @@ Description: Reads yearly FARS (Fatality Analysis Reporting System from the Nati
 Version: 0.0.1
 Date: 2020-01-26
 Depends: R (>= 3.0.0)
-Imports: dplyr, maps, readr, tidyr, magrittr
+Imports: 
+  dplyr, 
+  maps, 
+  readr, 
+  tidyr, 
+  magrittr
 Author: Joao Correia
 Maintainer: Joao Correia <joaojcorreia@gmail.com>
 License: GPL-3
