@@ -10,6 +10,12 @@ test_that("single year data is summarized successfully", {
     4,   2308,
     5,   2596,
     6,   2583,
+    7,   2696,
+    8,   2800,
+    9,   2618,
+    10,  2831,
+    11,  2714,
+    12,  2604
 
     )
 
@@ -20,7 +26,7 @@ test_that("single year data is summarized successfully", {
   fars_summary_2014$MONTH <- as.numeric(fars_summary_2014$MONTH)
 
   expect_equal(dim(fars_summarize_years(2015)), c(12, 2))
-  expect_equal(head(fars_summarize_years(2014)), fars_summary_2014)
+  expect_equal(fars_summarize_years(2014), fars_summary_2014)
 })
 
 
